@@ -1,0 +1,21 @@
+---
+
+### **Catatan Penting**
+1. **GitHub Authentication**  
+   - Jika pakai **HTTPS**:  
+     ```bash
+     git config --global credential.helper store
+     ```
+   - Jika pakai **SSH**:  
+     ```bash
+     ssh-keygen -t ed25519 -C "your_email@example.com"
+     cat ~/.ssh/id_ed25519.pub  # Salin ke GitHub Settings → SSH Keys
+     ```
+
+2. **Verifikasi Upload**  
+   Buka `https://github.com/username/Gatotkaca-Sentinel` untuk pastikan semua file terupload.
+
+---
+
+**Selesai!** 🚀 Repo Anda sekarang live di GitHub.  
+Contoh repo: [Gatotkaca-Sentinel-Demo](https://github.com/username/repo-name)

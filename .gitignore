@@ -1,0 +1,5 @@
+# Dispensasi file/folder  
+venv/  
+data/  
+*.log  
+__pycache__/  
